@@ -1,7 +1,7 @@
 var mySound; // Creates a variable to hold the sound
 
  function preload() {
-   mySound = loadSound('tasmanian-devil-daniel_simon.mp3');  // Loads the sound file into the variable
+   mySound = loadSound('tasmanianDevilDanielSimon.mp3');  // Loads the sound file into the variable
  }
 
  function setup() {
@@ -10,3 +10,4 @@ var mySound; // Creates a variable to hold the sound
    mySound.setVolume(0.1);
    mySound.play();
  }
+
