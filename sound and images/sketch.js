@@ -1,7 +1,7 @@
 var mySound; // Creates a variable to hold the sound
 
  function preload() {
-   mySound = loadSound('We Wish You.mp3');  // Loads the sound file into the variable
+   mySound = loadSound('tasmanian-devil-daniel_simon.mp3');  // Loads the sound file into the variable
  }
 
  function setup() {
