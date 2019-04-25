@@ -11,7 +11,7 @@ let mySound; // Creates a variable to hold the sound
    //mySound.play();
  }
  function draw() {
-   rect(100, 100, 100, 100)
+   rect(100, 100, 100, 10)
  }
 
 function mousePressed() {
