@@ -14,3 +14,14 @@ let mySound; // Creates a variable to hold the sound
    rect(100, 100, 100, 100)
  }
 
+function mousePressed() {
+  if (mySound.isPlaying()) {
+    // .isPlaying() returns a boolean
+    mySound.stop();
+    background(255, 0, 0);
+  } else {
+    mySound.play();
+    background(0, 255, 0);
+  }
+}
+
