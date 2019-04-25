@@ -6,17 +6,16 @@ let mySound // Creates a variable to hold the sound
  }
 
  function setup() {
-   createCanvas(1280, 877.49)
-  image(img, 0, 0)
+   createCanvas(windowWidth, windowHeight)
+  imageMode(CENTER)
+  image(img, width/2, height/2)
  }
 
 function mousePressed() {
   if (mySound.isPlaying()) {
-    mySound.stop()
-    background(255, 0, 0)
+    mySound.stop() 
   } else {
     mySound.play()
-    background(0, 255, 0)
   }
 }
 
