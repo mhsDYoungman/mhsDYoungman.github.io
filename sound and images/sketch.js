@@ -1,4 +1,4 @@
-var mySound; // Creates a variable to hold the sound
+let mySound; // Creates a variable to hold the sound
 
  function preload() {
    mySound = loadSound('tasmanianDevilDanielSimon.mp3');  // Loads the sound file into the variable
