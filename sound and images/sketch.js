@@ -7,8 +7,8 @@ let mySound; // Creates a variable to hold the sound
  function setup() {
    createCanvas(1280, 877.49);
    // Notice that you have to put the variable name in front of the functions
-   mySound.setVolume(0.1);
-   mySound.play();
+   //mySound.setVolume(0.1);
+   //mySound.play();
  }
  function draw() {
    rect(100, 100, 100, 100)
