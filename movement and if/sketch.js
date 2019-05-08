@@ -1,3 +1,8 @@
+/*
+Movement Assignment
+Created by Derek Youngman
+April 15, 2019
+*/
 // global variables
 let x1 = 20
 let y1 = 100
