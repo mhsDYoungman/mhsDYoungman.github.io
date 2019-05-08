@@ -1,6 +1,8 @@
 /* Brady, Derek and liam
    Bart Simpson
-   Able to scale the code */
+   Able to scale the code 
+   April 2, 2019
+   */
 
 function setup() {
   // put setup code here
