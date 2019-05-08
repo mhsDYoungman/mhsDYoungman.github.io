@@ -65,7 +65,7 @@ function draw() {
    x5Speed = x5Speed*(-1)
    y5Speed = y5Speed*(-1)
   }
-  // rectangle mouvment
+  // rectangle movement
   fill(0, 255, 255)
   rect(x1, y1, size, size)// use arrows to change direction
   x1 = x1+x1Speed
