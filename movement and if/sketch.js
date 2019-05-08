@@ -48,22 +48,24 @@ function draw() {
     text('PRESS F5 TO PLAY AGAIN', width/2, height/2+50)
   }
   else if(hit12===false || hit13===false || hit14===false || hit15===false) {
+    // bounce back
   if (hit23 || hit24 || hit25) {
-  x2Speed = x2Speed*(-1)
-  y2Speed = y2Speed*(-1)
-  }
+   x2Speed = x2Speed*(-1)
+   y2Speed = y2Speed*(-1)
+   }
   if (hit23 || hit34 || hit35) {
-  x3Speed = x3Speed*(-1)
-  y3Speed = y3Speed*(-1)
-  }
+   x3Speed = x3Speed*(-1)
+   y3Speed = y3Speed*(-1)
+   }
   if (hit24 || hit34 || hit45) {
-  x4Speed = x4Speed*(-1)
-  y4Speed = y4Speed*(-1)
+   x4Speed = x4Speed*(-1)
+   y4Speed = y4Speed*(-1)
   }
   if(hit25 || hit35 || hit45) {
-  x5Speed = x5Speed*(-1)
-  y5Speed = y5Speed*(-1)
+   x5Speed = x5Speed*(-1)
+   y5Speed = y5Speed*(-1)
   }
+  // rectangle mouvment
   fill(0, 255, 255)
   rect(x1, y1, size, size)// use arrows to change direction
   x1 = x1+x1Speed
@@ -81,7 +83,7 @@ function draw() {
   rect(x5, y5, size, size)
   x5 = x5+x5Speed
   y5 = y5+y5Speed
-  // rectangle movement
+  // rectangle direction
    if (keyIsDown(LEFT_ARROW)) {
      x1Speed = -7
      y1Speed = 0
