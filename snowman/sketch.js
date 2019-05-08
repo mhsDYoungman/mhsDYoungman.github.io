@@ -1,4 +1,8 @@
-function setup() {
+/*
+Snowman Assignment
+Created by Derek Youngman
+March 18, 2019
+*/function setup() {
   // put setup code here
   createCanvas(1000, 1000);
 }
