@@ -1,3 +1,8 @@
+/*
+House Assignment
+Created by Derek Youngman
+April 16, 2019
+*/
 let width = 20
 let height = 40
 let m = 1.2
@@ -16,15 +21,16 @@ function mouseMoved() {
 }
 
 function mouseClicked() {
+  // changing the colour
   fill(random(255), random(255), random(255));
-
+  // changing te size
     if(width<20*m*35) {
-    width=width*m
-    height=height*m/1.06
+     idth=width*m
+     eight=height*m/1.06
   }
     if (width>=20*m*35) {
-    width = 20
-    height = 40
+     idth = 20
+     eight = 40
     }
 
 }
