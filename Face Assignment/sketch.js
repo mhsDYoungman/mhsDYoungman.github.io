@@ -9,7 +9,6 @@ function setup() {
 }
 
 function draw() {
-
   let scale = 400;
   let x = width/2;
   let y = height/2;
@@ -24,7 +23,7 @@ function draw() {
 
 
 function drawhead(x,y,scale) {
-//Bart's face
+  //Bart's face
   //Details(Brady)
   fill(255,220,40);
   rectMode(CENTER);
@@ -62,55 +61,55 @@ function drawhead(x,y,scale) {
 }
 
 function draweyes(x,y,scale) { //Brady
-//Bart's eyes
-stroke(0);
-ellipseMode(CENTER);
+ //Bart's eyes
+ stroke(0);
+ ellipseMode(CENTER);
 
-//eyebrows
-fill(255,220,40);
-ellipse(x-scale/4.5,y-scale/12,scale/4,scale/5);
-stroke(255,220,40);
-ellipse(x-scale/4.8,y-scale/12,scale/4,scale/4.4);
+ //eyebrows
+ fill(255,220,40);
+ ellipse(x-scale/4.5,y-scale/12,scale/4,scale/5);
+ stroke(255,220,40);
+ ellipse(x-scale/4.8,y-scale/12,scale/4,scale/4.4);
 
-fill(255,220,40);
-stroke(0);
-ellipse(x+scale/3.9,y-scale/10,scale/6.8);
-stroke(255,220,40);
-ellipse(x+scale/4,y-scale/10,scale/7,scale/6.5);
+ fill(255,220,40);
+ stroke(0);
+ ellipse(x+scale/3.9,y-scale/10,scale/6.8);
+ stroke(255,220,40);
+ ellipse(x+scale/4,y-scale/10,scale/7,scale/6.5);
 
 
-//Sclera 2
-stroke(0);
-fill(255);
-ellipse(x+scale/5.9,y,scale/3.2);
+ //Sclera 2
+ stroke(0);
+ fill(255);
+ ellipse(x+scale/5.9,y,scale/3.2);
 
-//Pupil 2
-fill(0);
-ellipse(x+scale/5.5,y,scale/35);
+ //Pupil 2
+ fill(0);
+ ellipse(x+scale/5.5,y,scale/35);
 
-//Sclera 1
-fill(255);
-ellipse(x-scale/5.9,y,scale/3.2);
+ //Sclera 1
+ fill(255);
+ ellipse(x-scale/5.9,y,scale/3.2);
 
-//Pupil 1
-fill(0);
-ellipse(x-scale/6.1,y,scale/35);
+ //Pupil 1
+ fill(0);
+ ellipse(x-scale/6.1,y,scale/35);
 }
 
 
 function drawnose(x,y,scale) { //Brady
-//Nose
-ellipseMode(CENTER);
-fill(255,220,40);
-ellipse(x,y+scale/9,scale/7);
+ //Nose
+ ellipseMode(CENTER);
+ fill(255,220,40);
+ ellipse(x,y+scale/9,scale/7);
 
-beginShape(TRIANGLES);
-fill(255,220,40);
-noStroke();
-vertex(x-scale/31, y+scale/10);
-vertex(x, y-scale/40);
-vertex(x+scale/31, y+scale/10);
-endShape(TRIANGLES);
+ beginShape(TRIANGLES);
+ fill(255,220,40);
+ noStroke();
+ vertex(x-scale/31, y+scale/10);
+ vertex(x, y-scale/40);
+ vertex(x+scale/31, y+scale/10);
+ endShape(TRIANGLES);
 }
 
 function drawears(x,y,scale){ //Brady
@@ -128,7 +127,8 @@ function drawmouth(x,y,scale){ //Liam
   bezier(x+scale/3.9, y+scale/2.225, x+scale/4.1, y+scale/2.35, x+scale/3.8, y+scale/2.35, x+scale/4.7, y+scale/2.4)
   }
 
-  function drawhair(x,y,scale){//Derek
+  function drawhair(x,y,scale){ //Derek
+    // draw the hair
     stroke(0);
     triangle(x-scale/5.9-scale/6.4, y-scale/2.8-scale/6.4, x-scale/5.9-scale/8.5, y-scale/2.8-scale/6.4, x-scale/5.9-scale/5.9, y-scale/2.8-scale/4.5)
     triangle(x-scale/5.9-scale/8.5, y-scale/2.8-scale/6.4, (x-scale/5.9-scale/8.5)+(scale/6.4+scale/2.95+scale/6.9)/9, y-scale/2.8-scale/6.4, (x-scale/5.9-scale/8.5)+(scale/6.4+scale/2.95+scale/6.9)/60, y-scale/2.8-scale/4.2)
@@ -145,6 +145,4 @@ function drawmouth(x,y,scale){ //Liam
     line(x-scale/5.9-scale/6.4-scale/4000, y-scale/2.8-scale/6.4, x+scale/5.9+scale/6.4-scale/70, y-scale/2.8-scale/6.4)
     strokeWeight(2);
     stroke(0);
-
-
   }
