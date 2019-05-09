@@ -1,3 +1,6 @@
+/* Derek Youngman
+Decision Structure
+5/3/2019*/
 // global variables
 let x1 = 20
 let y1 = 100
@@ -29,110 +32,110 @@ function keyPressed() {
 // answering the questions
 // correct answers
   if (keyCode===65 && hit12===true) {
-hit12=false
-x1 = 20
-y1 = 100
-size = 100
-x2 = 400
-y2 = 400
-x3 = 600
-y3 = 700
-x4 = 1000
-y4 = 400
-x5 = 400
-y5 = 250
-x2Speed = 4*1.5
-y2Speed = 4*1.5
-x3Speed = -4.5*1.5
-y3Speed = -4.5*1.5
-x4Speed = 5*1.5
-y4Speed = 5*1.5
-x5Speed = -5.5*1.5
-y5Speed = -5.5*1.5
+    hit12=false
+    x1 = 20
+    y1 = 100
+    size = 100
+    x2 = 400
+    y2 = 400
+    x3 = 600
+    y3 = 700
+    x4 = 1000
+    y4 = 400
+    x5 = 400
+    y5 = 250
+    x2Speed = 4*1.5
+    y2Speed = 4*1.5
+    x3Speed = -4.5*1.5
+    y3Speed = -4.5*1.5
+    x4Speed = 5*1.5
+    y4Speed = 5*1.5
+    x5Speed = -5.5*1.5
+    y5Speed = -5.5*1.5
   }
   if (keyCode===68 && hit13===true) {
-hit12=false
-x1 = 20
-y1 = 100
-size = 100
-x2 = 400
-y2 = 400
-x3 = 600
-y3 = 700
-x4 = 1000
-y4 = 400
-x5 = 400
-y5 = 250
-x2Speed = 4*1.5
-y2Speed = 4*1.5
-x3Speed = -4.5*1.5
-y3Speed = -4.5*1.5
-x4Speed = 5*1.5
-y4Speed = 5*1.5
-x5Speed = -5.5*1.5
-y5Speed = -5.5*1.5
+    hit12=false
+    x1 = 20
+    y1 = 100
+    size = 100
+    x2 = 400
+    y2 = 400
+    x3 = 600
+    y3 = 700
+    x4 = 1000
+    y4 = 400
+    x5 = 400
+    y5 = 250
+    x2Speed = 4*1.5
+    y2Speed = 4*1.5
+    x3Speed = -4.5*1.5
+    y3Speed = -4.5*1.5
+    x4Speed = 5*1.5
+    y4Speed = 5*1.5
+    x5Speed = -5.5*1.5
+    y5Speed = -5.5*1.5
 
   }
   if (keyCode===70 && hit14===true) {
-hit12=false
-x1 = 20
-y1 = 100
-size = 100
-x2 = 400
-y2 = 400
-x3 = 600
-y3 = 700
-x4 = 1000
-y4 = 400
-x5 = 400
-y5 = 250
-x2Speed = 4*1.5
-y2Speed = 4*1.5
-x3Speed = -4.5*1.5
-y3Speed = -4.5*1.5
-x4Speed = 5*1.5
-y4Speed = 5*1.5
-x5Speed = -5.5*1.5
-y5Speed = -5.5*1.5
+     hit12=false
+     x1 = 20
+     y1 = 100
+     size = 100
+     x2 = 400
+     y2 = 400
+     x3 = 600
+     y3 = 700
+     x4 = 1000
+     y4 = 400
+     x5 = 400
+     y5 = 250
+     x2Speed = 4*1.5
+     y2Speed = 4*1.5
+     x3Speed = -4.5*1.5
+     y3Speed = -4.5*1.5
+     x4Speed = 5*1.5
+     y4Speed = 5*1.5
+     x5Speed = -5.5*1.5
+     y5Speed = -5.5*1.5
   }
   if (keyCode===72 && hit15===true) {
-hit12=false
-x1 = 20
-y1 = 100
-size = 100
-x2 = 400
-y2 = 400
-x3 = 600
-y3 = 700
-x4 = 1000
-y4 = 400
-x5 = 400
-y5 = 250
-x2Speed = 4*1.5
-y2Speed = 4*1.5
-x3Speed = -4.5*1.5
-y3Speed = -4.5*1.5
-x4Speed = 5*1.5
-y4Speed = 5*1.5
-x5Speed = -5.5*1.5
-y5Speed = -5.5*1.5
+     hit12=false
+     x1 = 20
+     y1 = 100
+     size = 100
+     x2 = 400
+     y2 = 400
+     x3 = 600
+     y3 = 700
+     x4 = 1000
+     y4 = 400
+     x5 = 400
+     y5 = 250
+     x2Speed = 4*1.5
+     y2Speed = 4*1.5
+     x3Speed = -4.5*1.5
+     y3Speed = -4.5*1.5
+     x4Speed = 5*1.5
+     y4Speed = 5*1.5
+     x5Speed = -5.5*1.5
+     y5Speed = -5.5*1.5
   }
   // incorrect answers
   if (keyCode===66 && hit12===true) {
-  level=1
-  hit12=false
+     level=1
+     hit12=false
   }
   if (keyCode===67 && hit13===true) {
-  level=1
-  hit13=false
+     level=1
+     hit13=false
   }
   if (keyCode===69 && hit14===true) {
-  level=1
-  hit14=false
+     level=1
+     hit14=false
   }
   if (keyCode===71 && hit15===true) {
-  level=1
-  hit15=false
+     level=1
+     hit15=false
   }
 
 }
@@ -230,20 +233,20 @@ function draw() {
 // movement
   else if(hit12===false || hit13===false || hit14===false || hit15===false) {
   if (hit23 || hit24 || hit25) {
-  x2Speed = x2Speed*(-1)
-  y2Speed = y2Speed*(-1)
+     x2Speed = x2Speed*(-1)
+     y2Speed = y2Speed*(-1)
   }
   if (hit23 || hit34 || hit35) {
-  x3Speed = x3Speed*(-1)
-  y3Speed = y3Speed*(-1)
+     x3Speed = x3Speed*(-1)
+     y3Speed = y3Speed*(-1)
   }
   if (hit24 || hit34 || hit45) {
-  x4Speed = x4Speed*(-1)
-  y4Speed = y4Speed*(-1)
+     x4Speed = x4Speed*(-1)
+     y4Speed = y4Speed*(-1)
   }
-  if(hit25 || hit35 || hit45) {
-  x5Speed = x5Speed*(-1)
-  y5Speed = y5Speed*(-1)
+  if (hit25 || hit35 || hit45) {
+     x5Speed = x5Speed*(-1)
+     y5Speed = y5Speed*(-1)
   }
   fill(0, 255, 255)
   rect(x1, y1, size, size)// use arrows to change direction
