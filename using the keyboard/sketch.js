@@ -1,3 +1,7 @@
+/* using the keyboard
+Derek Youngman
+4/23/2019
+*/
 x = 10
 y = 10
 size = 100
@@ -12,9 +16,9 @@ function setup() {
 function draw() {
   // put drawing code here
   if (keyIsDown(SHIFT)) {
-  r = random(0, 255)
-  g = random(0, 255)
-  b = random(0, 255)
+   r = random(0, 255)
+   g = random(0, 255)
+   b = random(0, 255)
   }
   background(r, g, b)
   fill(255-r, 255-g, 255-b)
