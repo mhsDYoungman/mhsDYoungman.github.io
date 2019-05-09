@@ -1,3 +1,6 @@
+/* Derek Youngman
+Looping
+5/7/2019*/
 let x = 0
 let y = 0
 let r = 255
@@ -10,6 +13,7 @@ function setup() {
 }
 function draw() {
   // put drawing code here
+  // colour changing
   background(255-r, 255-g, 255-b)
   hit = collideCircleCircle(x, y, 50, x, height-y, 50)
     if (hit) {
@@ -18,6 +22,7 @@ function draw() {
       g = random(0,255)
       m = -2
     }
+  // circles
   while (x <= width) {
     fill(r, g, b)
     ellipse(x, y, 50, 50)
